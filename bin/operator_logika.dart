@@ -14,8 +14,8 @@ void main() {
   print(apakahNilaiAkhirBagus);
   print(apakahNilaiAbsenBagus);
 
-   var lulus = apakahNilaiAkhirBagus && apakahNilaiAbsenBagus;
-  // var lulus = apakahNilaiAkhirBagus || apakahNilaiAbsenBagus;
+   //var lulus = apakahNilaiAkhirBagus && apakahNilaiAbsenBagus;
+   var lulus = apakahNilaiAkhirBagus || apakahNilaiAbsenBagus;
   print(lulus);
 
   print(!true);
